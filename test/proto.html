@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <body>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>5th Class</title>
+      <style>
+        body, ul, li, h1, h2, a {
+  margin:0;
+  padding: 0;
+  font-family: arial;
+}
+
+header {
+  background-color: #f63232;
+  padding: 20px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index:1;
+  top: 0;
+  left: 0;
+
+  
+}
+
+header h1 {
+  display: inline-block;
+  color: white;
+  border: 8px solid white;
+  padding: 6px 12px;
+  border-radius: 36px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.banner .welcome {
+  background: #feb614;
+  color: white;
+  padding: 30px;
+  position: absolute;
+  left: 0px;
+  top: 30%;
+}
+
+.banner h2 {
+  font-size:72px;
+}
+
+.banner h2 span {
+  font-size: 1.2em;
+}
+
+nav {
+  background-color: #f4f4f4;
+  padding: 20px;
+  position: sticky;
+  top: 105px;
+}
+
+nav ul{
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+nav li{
+  width: 25%;
+  display: inline-block;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
+main {
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+article h2{
+  color:#f63232;
+  font-size: 48px;
+}
+
+article p {
+  line-height: 2em;
+  color: #4b4b4b;
+}
+
+.images{
+  text-align: center;
+  margin: 80px 0;
+  white-space: nowrap;
+}
+
+.images li{
+  display: inline-block;
+  width: 40%;
+  margin: 20% 5%;
+}
+
+.images li img {
+  max-width: 100%;
+}
+
+section.join {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 60px 20px;
+  color: #4b4b4b;
+}
+
+.join h2 {
+  font-size: 36px;
+}
+
+form input {
+  margin: 20px 0;
+  padding: 10px 28px;
+  font-size: 24px;
+  border-radius: 28px;
+  border: 4px solid white;
+}
+
+footer{
+  background-color: #f63232;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+.images li:hover{
+  position: relative;
+  top: -4px;
+}
+
+form input:focus{
+  border: 4px dashed #4b4b4b
+}
+
+form input:valid {
+  border: 4px solid #71d300
+}
+
+      </style>
+       <header>
+        <h1>Marioclub</h1>
+       </header>
+
+      <section class="banner">
+        <img src="C:\Users\Home PC\Desktop\web dev\test\banner.png" alt="marioclub welcome banner" />
+        <div class="welcome">
+         <h2>Welcome to <br /><span>Marioclub</span></h2>
+        </div>
+      </section>
+    <nav class="main-nav">
+      <ul>
+        <li>
+          <a>Join the club</a>
+        </li>
+        <li>Latest News</li>
+        <li>New Games</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h2>It's Me Mario</h2>
+        <p class="first">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae possimus sapiente, ducimus
+        </p>
+        <p class="second">
+          asperiores error eum ipsam quasi repellendus iste earum laboriosam nesciunt officiis atque rerum quos incidunt aspernatur velit voluptates.
+ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium labore perferendis minus incidunt doloribus, eligendi repudiandae
+ earum dignissimos est neque deserunt consequatur. Repudiandae autem maxime magnam eveniet! Atque, suscipit amet. Lorem ipsum,
+ dolor sit amet consectetur adipisicing elit. Praesentium labore perferendis minus incidunt doloribus, eligendi repudiandae earum dignissimos
+ est neque deserunt consequatur. Repudiandae autem maxime magnam eveniet! Atque, suscipit amet.
+        </p>
+      </article>
+      <ul class="images">
+        <li><img src="C:\Users\Home PC\Desktop\web dev\test\thumb-1.png" alt="img1" /></li>
+        <li><img src="C:\Users\Home PC\Desktop\web dev\test\thumb-2.png" alt="img2" /></li>
+      </ul>
+    </main>
+    <section class="join">
+      <h2>Join Today</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta rem
+        quia temporibus, velit, consequatur voluptates nobis ab inventore
+        voluptatibus hic quidem, dolore aut nulla saepe suscipit tenetur sed et.
+        Necessitatibus.
+      </p>
+      <form action="#">
+        <label for="email">Email</label>
+        <input
+        type="email"
+        name="email"
+        placeholder="Type email & hit enter"
+        required
+      />
+      </form>
+     </section>
+     <footer><p class="copyright">Copyright 2021 Marioclub</p></footer>
+    </body>
+   </head>
+</html>
